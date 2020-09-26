@@ -15,7 +15,7 @@ backend:
 # See README.md in the proxy-backend plugin for information on the configuration format
 proxy:
   '/circleci/api':
-    target: https://circleci.com/api/v1.1
+    target: 'https://circleci.com/api/v2'
     changeOrigin: true
     pathRewrite:
       '^/proxy/circleci/api/': '/'

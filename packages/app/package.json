@@ -84,7 +84,7 @@
   "license": "Apache-2.0",
   "proxy": {
     "/circleci/api": {
-      "target": "https://circleci.com/api/v1.1",
+      "target": "https://circleci.com/api/v2",
       "changeOrigin": true,
       "pathRewrite": {
         "^/circleci/api/": "/"
